@@ -1,0 +1,15 @@
+CREATE OR REPLACE PACKAGE                    ARHIVIRANJE_PACKAGE AS
+
+
+PROCEDURE ARHIVIRAJ;
+
+PROCEDURE UPIS_U_LOG (P_VRSTA_PORUKE     IN VARCHAR2,
+                                       P_PORUKA   IN VARCHAR2,
+                                       P_ITERACIJA IN NUMBER);
+
+END ARHIVIRANJE_PACKAGE;
+/
+
+SHOW ERRORS;
+
+
