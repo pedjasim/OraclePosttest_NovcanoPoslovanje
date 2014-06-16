@@ -33,7 +33,8 @@ BEGIN
 
     P_REZULTAT := 1;
     P_PORUKA   := 'NEUSPEŠAN UPIS!';
-
+-- Neki komentar za GitHub
+-- Nešto ne?e
     INSERT INTO IZV_NALOZI
                (ID_IZV_NALOZI,
                 ID_CPM_DAN,
