@@ -33,7 +33,7 @@ BEGIN
 
     P_REZULTAT := 1;
     P_PORUKA   := 'NEUSPEŠAN UPIS!';
-
+-- Dodao neki komentar, da bih imao nešto za patch
     INSERT INTO IZV_NALOZI
                (ID_IZV_NALOZI,
                 ID_CPM_DAN,
