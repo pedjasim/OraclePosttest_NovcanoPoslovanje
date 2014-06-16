@@ -1,0 +1,21 @@
+CREATE TABLE MANJAK_VISAK
+(
+  ID_MANJAK_VISAK          NUMBER(9)            NOT NULL,
+  ID_CPM                   NUMBER(5)            NOT NULL,
+  DATUM                    DATE                 NOT NULL,
+  IZNOS                    NUMBER(18,2)         NOT NULL,
+  VRSTA                    VARCHAR2(1 CHAR)     NOT NULL,
+  UZROK_MANJKA_VISKA       VARCHAR2(1 CHAR)     NOT NULL,
+  ID_RADNIK                NUMBER(7),
+  REDNI_BROJ_TRANSAKCIJE   VARCHAR2(5 CHAR),
+  DATUM_TRANSAKCIJE        DATE,
+  STATUS                   VARCHAR2(1 CHAR),
+  ID_TRANSAKCIJA_NALOG_PP  NUMBER(9)
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+

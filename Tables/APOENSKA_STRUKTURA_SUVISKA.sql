@@ -1,0 +1,13 @@
+CREATE TABLE APOENSKA_STRUKTURA_SUVISKA
+(
+  ID_SUVISAK  NUMBER(9)                         NOT NULL,
+  ID_APOEN    NUMBER(3)                         NOT NULL,
+  KOMADA      NUMBER(5)                         NOT NULL
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+

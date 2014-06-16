@@ -1,0 +1,17 @@
+CREATE TABLE PROVIZIJA_KOMITENTA
+(
+  ID_PROVIZIJA_KOMITENTA  NUMBER(7)             NOT NULL,
+  ID_CPM                  NUMBER(5)             NOT NULL,
+  DATUM                   DATE                  NOT NULL,
+  SIFRA_KOMITENTA         VARCHAR2(5 CHAR)      NOT NULL,
+  SIFRA_TRANSAKCIJE       VARCHAR2(5 CHAR)      NOT NULL,
+  IZNOS                   NUMBER(18,2)          NOT NULL,
+  ID_CPM_DAN              RAW(16)
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+

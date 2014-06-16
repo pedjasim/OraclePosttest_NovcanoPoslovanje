@@ -1,0 +1,15 @@
+CREATE TABLE ARH_LOG
+(
+  ID_ARH_LOG    NUMBER(9)                       NOT NULL,
+  DATUM_VREME   DATE                            NOT NULL,
+  PORUKA        VARCHAR2(200 CHAR)              NOT NULL,
+  VRSTA_PORUKE  VARCHAR2(1 CHAR)                NOT NULL,
+  ITERACIJA     NUMBER(5)                       NOT NULL
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+

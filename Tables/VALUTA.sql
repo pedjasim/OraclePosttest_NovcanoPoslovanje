@@ -1,0 +1,14 @@
+CREATE TABLE VALUTA
+(
+  ID_VALUTA  NUMBER(3)                          NOT NULL,
+  OZNAKA     VARCHAR2(3 CHAR)                   NOT NULL,
+  NAZIV      VARCHAR2(50 CHAR)                  NOT NULL,
+  STATUS     VARCHAR2(1 CHAR)                   NOT NULL
+)
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
